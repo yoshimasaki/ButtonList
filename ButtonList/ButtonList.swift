@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ButtonList: View {
 
+    // List 内ボタンだと "Button Shapes" の影響は受けない
     var body: some View {
         ScrollView {
             LazyVStack(spacing: .zero) {
